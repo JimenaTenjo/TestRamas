@@ -5,6 +5,7 @@
 
  ?>
 
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -18,6 +19,14 @@
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
+<center>
+<button type="button" class="btn btn-primary">Tipo</button>
+<button type="button" class="btn btn-secondary">Color</button>
+<button type="button" class="btn btn-success">Tamano</button>
+<button type="button" class="btn btn-danger">Forma</button>
+</center>
+
+<br>
 
 <div class="row">
 <div class="card text-center">
@@ -60,6 +69,32 @@
     </div>
     </div>
 </div>
+
+<br>
+
+<center>
+<div class="spinner-border text-primary" role="status">
+    <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-border text-secondary" role="status">
+    <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-border text-success" role="status">
+    <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-border text-danger" role="status">
+    <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-border text-warning" role="status">
+    <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-border text-info" role="status">
+    <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-border text-dark" role="status">
+    <span class="sr-only">Loading...</span>
+</div>
+</center>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
