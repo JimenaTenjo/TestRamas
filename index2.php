@@ -6,7 +6,7 @@ use App\Modelos\Persona as persona;
 
 
 <!doctype html>
-<html lang="en">
+<html lang="en"> 
 <head>
     <title>Persona</title>
     <!-- Required meta tags -->
@@ -45,7 +45,9 @@ use App\Modelos\Persona as persona;
 
 
 </div>
-
-
+<center>
+<button type="button" class="btn btn-primary btn-sm">Ingresar</button>
+<button type="button" class="btn btn-secondary btn-sm">Salir</button>
+</center>
 </body>
 </html>
