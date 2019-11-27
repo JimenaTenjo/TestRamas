@@ -5,6 +5,7 @@
 
  ?>
 
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -18,6 +19,13 @@
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
+<center>
+<button type="button" class="btn btn-primary">Tipo</button>
+<button type="button" class="btn btn-secondary">Color</button>
+<button type="button" class="btn btn-success">Tamano</button>
+<button type="button" class="btn btn-danger">Forma</button>
+</center>
+
 
 <div class="row">
 <div class="card text-center">
