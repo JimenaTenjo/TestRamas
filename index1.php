@@ -11,60 +11,7 @@ use App\Modelos\Carro as vehiculo;
 
 <!doctype html>
 <html lang="en">
-<head>
-    <title>Carro</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
-<body>
-
-<div class="row">
-
-    <div class="card">
-        <div class="card-header">
-            <h5>Carro</h5>
-        </div>
-        <div class="card-body">
-            <h5 class="card-title"></h5>
-            <p class="card-text"></p>
-            <?php
-            $vehiculo1 = new vehiculo("BMW",
-                "i3",
-                "Automovil",
-                "Negro"
-            );
-            $vehiculo1->MostrarDatos();
-            ?>
-
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-    </div>
-
-
-    <div class="col-xs-1-12">
-        <div class="card">
-            <div class="card-header">
-                <h5>Carro</h5>
-
-            </div>
-            <div class="card-body">
-                <h3 class="card-title"></h3>
-                <p class="card-text"></p>
-                <?php
-                $vehiculo2 = new Vehiculo("Chevrolet", "Aveo", "Automovil", "Gris");
-                $vehiculo2->MostrarDatos();
-                ?>
-
-            </div>
-        </div>
-    </div>
-
-</div>
 
 <head>
     <script type="220545a178b8ff0f54dd9f14-text/javascript">
@@ -178,6 +125,65 @@ use App\Modelos\Carro as vehiculo;
       $(".iframe-preview").addClass("iframe-preview-mobile");
     });
   </script>
+
+<head>
+    <title>Carro</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<head>
+
+<div class="row">
+
+    <div class="card">
+        <div class="card-header">
+            <h5>Carro</h5>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text"></p>
+            <?php
+            $vehiculo1 = new vehiculo("BMW",
+                "i3",
+                "Automovil",
+                "Negro"
+            );
+            $vehiculo1->MostrarDatos();
+            ?>
+
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+
+
+    <div class="col-xs-1-12">
+        <div class="card">
+            <div class="card-header">
+                <h5>Carro</h5>
+
+            </div>
+            <div class="card-body">
+                <h3 class="card-title"></h3>
+                <p class="card-text"></p>
+                <?php
+                $vehiculo2 = new Vehiculo("Chevrolet", "Aveo", "Automovil", "Gris");
+                $vehiculo2->MostrarDatos();
+                ?>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+</head>
+</body>
+
 <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="220545a178b8ff0f54dd9f14-|49" defer=""></script></body>
 </html>
 
