@@ -13,6 +13,7 @@ use App\Modelos\Carro as vehiculo;
 <html lang="en">
 
 
+
 <head>
     <script type="220545a178b8ff0f54dd9f14-text/javascript">
     var host = "startbootstrap.com";
@@ -137,7 +138,6 @@ use App\Modelos\Carro as vehiculo;
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-<head>
 
 <div class="row">
 
@@ -181,8 +181,10 @@ use App\Modelos\Carro as vehiculo;
     </div>
 
 </div>
-</head>
 </body>
+
+
+
 
 <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="220545a178b8ff0f54dd9f14-|49" defer=""></script></body>
 </html>
