@@ -34,7 +34,9 @@ use App\Modelos\Computador as Portatil;
 </div>
 <br>
 <form>
-    <font><div class="row">
+    <font>
+        <div class="container">
+        <div class="row">
         <div class="card-header">
     <div class="form-group">
         <label for="exampleInputEmail1">Correo Eléctronico</label>
@@ -53,7 +55,7 @@ use App\Modelos\Computador as Portatil;
 </form>
     </div>
         </div>
-            </div>
+
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
