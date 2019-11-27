@@ -22,12 +22,16 @@ use App\Modelos\Computador as Portatil;
 <div class="row">
     <div class="card">
         <div class="card-header">
-</div>
+
         <h5 class="card title">Computador</h5>
 
         <?php
-
-
+       $Computador1 = new Portatil("47", "asus", "negro", "core i3");
+       $Computador1->MostrarDatos();
+       ?>
+        </div>
+    </div>
+</div>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -42,4 +46,5 @@ use App\Modelos\Computador as Portatil;
         crossorigin="anonymous"></script>
 </body>
 </html>
+
 
