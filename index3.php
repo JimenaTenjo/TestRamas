@@ -34,26 +34,26 @@ use App\Modelos\Computador as Portatil;
 </div>
 <br>
 <form>
-    <div class="row">
+    <font><div class="row">
         <div class="card-header">
     <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
+        <label for="exampleInputEmail1">Correo Eléctronico</label>
         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <small id="emailHelp" class="form-text text-muted">Ayudanos a Saber mas de Ti.</small>
     </div>
     <div class="form-group">
-        <label for="exampleInputPassword1">Password</label>
+        <label for="exampleInputPassword1">Contraseña</label>
         <input type="password" class="form-control" id="exampleInputPassword1">
     </div>
     <div class="form-group form-check">
         <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        <label class="form-check-label" for="exampleCheck1">Echemos un vistazo</label>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary">Ingresar</button>
 </form>
-</div>
-</div>
-</div>
+    </div>
+        </div>
+            </div>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
